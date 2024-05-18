@@ -35,9 +35,12 @@ body{
     grid-template-rows: repeat(2, 1fr);
     gap: 5px;
 
-    height: auto;
+    height: 100%;
     width: auto;
     background-color: bisque
+}
+.card-body{
+    height: 60%;
 }
 
 .block{
@@ -52,7 +55,6 @@ body{
 }
 
 .power{
-    height: 60vh;
     /* width: auto; */
     border: 2px solid black;
     padding: 20px;
@@ -66,7 +68,6 @@ body{
     border: none;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
-
 .brown{
     color: brown;
     font-size: 1rem;
@@ -80,7 +81,7 @@ body{
     align-items: center;
 
     width: 100%;
-    height: 20px;
+    height: auto;
     background-color: brown;
     margin-left: auto;
     margin-right: 0px;
@@ -110,16 +111,14 @@ body{
     justify-content: center;
     align-items: flex-end;
     gap: 10px;
+    height: 40%;
 }
 .fashion{
-    height: 180px;
+    height: 7rem;
     width: auto;
     border: 10px solid brown;
     border-radius: 10px;
     /* margin: 10px; */
-}
-.fashion:hover{
-    height: 200px;
 }
 
 .money {

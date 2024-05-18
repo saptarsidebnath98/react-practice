@@ -1,0 +1,47 @@
+html, body{
+    background-color: black;
+    color: white;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.center-div{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 80px 80px;
+    gap: 20px;
+    grid-template-areas:
+     "my-data my-data"
+      "btnOne btnTwo";
+}
+.center-div p{
+    grid-area: my-data;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+.one{
+    grid-area: btnOne;
+    border: 1px solid white;
+}
+.one:active{
+    background-color: green;
+}
+.two{
+    grid-area: btnTwo;
+    border: 1px solid white;
+}
+.two:active{
+    background-color: red;
+}

@@ -5,7 +5,7 @@ import MenuCard from "./MenuCard";
 import Navbar from "./Navbar";
 
 const uniqueList = [...new Set(Menu.map((currentElement)=> currentElement.category)), "All"];
-console.log(uniqueList);
+// console.log(uniqueList);
 
 const Restaurant = () => {
     const [menuData, setMenuData] = useState(Menu);
