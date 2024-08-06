@@ -1,10 +1,10 @@
-import Image from "./components/Image"
+import Profile from "./components/Profile";
 
 function App() {
 
   return (
     <>
-    <Image/>
+    <Profile delay={1000}/>
     </>
   )
 }
