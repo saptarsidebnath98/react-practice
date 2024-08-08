@@ -1,0 +1,31 @@
+.primaryBg {
+    background-color: #6E41E2
+}
+
+.secondaryBg {
+    background-color: #c9c6c6
+}
+
+.errorBg{
+    background-color: red;
+}
+
+.activateBg{
+    background-color: green;
+}
+ 
+.primaryColor {
+    color: #FFFFFF;
+}
+
+.secondaryColor {
+    color: #6E41E2
+}
+
+.errorColor{
+    color: white;
+}
+
+.activateColor{
+    color: yellow;
+}
