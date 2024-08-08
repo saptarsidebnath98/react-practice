@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body{
+    background-color: #3a4750;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.container{
+    max-width: 1280px;
+    width: 80%;
+    margin: 0 auto;
+}
+/* Navbar */
+.navbar{
+    background-color: #be3144;
+    color: #d3d6db;
+    padding: 20px 0px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.navbar-logo-header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #303841;
+    font-size: 26px;
+    letter-spacing: 5px;
+}
+#nav-two{
+    color: #d3d6db;
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: #d3d6db;
+}
+.nav-items{
+    font-size: 26px;
+}
+.nav-items + .nav-items{
+    margin-left: 30px;
+}
+
+.nav-links:hover{
+    color: #ffffff;
+}
