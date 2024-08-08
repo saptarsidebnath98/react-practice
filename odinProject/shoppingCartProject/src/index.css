@@ -58,3 +58,52 @@ body{
 .nav-links:hover{
     color: #ffffff;
 }
+
+/* Header */
+.header{
+    padding: 20px 0 50px;
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    font-size: 21px;
+    color: #303841;
+}
+.header-title{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    gap: 30px;
+}
+.header-img{
+    width: 20%;
+    border-radius: 10px;
+    border: 2px solid #be3144;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 2);
+}
+.header-first{
+    color: #d3d6db;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.h-pink{
+    color: #be3144;
+    font-size: 2.5rem;
+}
+.famous-for{
+    color: #bad8b6;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    
+}
