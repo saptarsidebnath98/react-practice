@@ -61,7 +61,7 @@ body{
 
 /* Header */
 .header{
-    padding: 20px 0 50px;
+    padding: 0px 0 10px;
 }
 .header-container{
     display: flex;
@@ -83,11 +83,14 @@ body{
     gap: 30px;
 }
 .header-img{
-    width: 20%;
+    width: 15%;
     border-radius: 10px;
     border: 2px solid #be3144;
     border-radius: 50%;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 2);
+}
+.header-img:hover{
+    box-shadow: 0px 0px 50px #be3144;
 }
 .header-first{
     color: #d3d6db;
@@ -105,5 +108,36 @@ body{
     color: #bad8b6;
     letter-spacing: 5px;
     text-transform: capitalize;
+}
+.header-img-div{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.header-img-items{
+    width: 15vh;
+    background-color: #be3144;
+    flex-wrap: wrap;
+    height: 15vh;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: transform 0.25s ease;
+}
+.header-img-items:hover{
+    transform: scale(1.1);
     
+}
+.header-img-items img{
+    object-fit: cover;
+}
+
+/* shop now button section */
+
+.shop-now-btn-section{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
 }

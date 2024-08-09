@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import SectionButton from "./components/SectionButton";
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
     <>
       <Navbar/>
       <Header/>
-      shop now button
+      <SectionButton/>
     </>
   )
 }
