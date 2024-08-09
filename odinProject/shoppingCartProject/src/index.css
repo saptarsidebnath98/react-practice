@@ -142,3 +142,49 @@ body{
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 600px){
+    /* navbar */
+    .navbar{
+        padding: 10px 0px;
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+    .navbar-logo-header{
+       flex-direction: column;
+       text-align: center;
+    }
+    .nav-list{
+       padding-left: 0%;
+    }
+
+    /* header */
+    .header-container{
+        gap: 15px;
+    }
+    .header-title{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .h-pink{
+        font-size: 2rem; 
+    }
+    .header-img{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .famous-for{
+        text-align: center;
+        margin-bottom: 30px;
+        line-height: 50px;
+    }
+    .header-img-div{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header-img-items{
+        width: 20vh;
+        height: 20vh;
+    }
+}
