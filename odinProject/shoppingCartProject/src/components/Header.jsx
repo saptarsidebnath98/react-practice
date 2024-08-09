@@ -1,7 +1,7 @@
 
 const Header = () => {
 
-  const images = ["coffee", "cycle", "laptop", "ring", "mobile", "shoe"];
+  const images = ["coffee", "cycle", "laptop", "ring", "mobile", "shoe", "jacket"];
 
   return (
     <header className="header">

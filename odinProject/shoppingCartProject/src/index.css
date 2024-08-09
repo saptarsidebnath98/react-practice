@@ -118,7 +118,8 @@ body{
 }
 .header-img-items{
     width: 15vh;
-    background-color: #be3144;
+    background-color: #303841;
+    border: 2px solid #be3144;
     flex-wrap: wrap;
     height: 15vh;
     padding: 10px;
