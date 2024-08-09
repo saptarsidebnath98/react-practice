@@ -14,7 +14,7 @@ const Header = () => {
             </div>
             <img className="header-img" src="./images/oneStop.png" alt="sale image" />
             <h3 className="famous-for">#World No.1 trusted shopping platform</h3>
-
+            <p className="category-text">Categories</p>
             <div className="header-img-div">
               {images.map((image, index)=> 
               <img key={index} src={`./images/${image}.png`} alt={`${image} image`} className="header-img-items" />)}

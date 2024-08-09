@@ -61,7 +61,7 @@ body{
 
 /* Header */
 .header{
-    padding: 0px 0 10px;
+    padding: 30px 0px 10px;
 }
 .header-container{
     display: flex;
@@ -81,6 +81,7 @@ body{
     align-items: center;
     justify-content: center;  
     gap: 30px;
+    user-select: none;
 }
 .header-img{
     width: 15%;
@@ -88,6 +89,7 @@ body{
     border: 2px solid #be3144;
     border-radius: 50%;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 2);
+    margin-bottom: 20px;
 }
 .header-img:hover{
     box-shadow: 0px 0px 50px #be3144;
@@ -105,9 +107,20 @@ body{
     font-size: 2.5rem;
 }
 .famous-for{
-    color: #bad8b6;
+    color: #fff ;
     letter-spacing: 5px;
     text-transform: capitalize;
+}
+.category-text{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 5px;
+    color: darkgray;
+    font-weight: 800;
+    /* border: 2px solid darkgray; */
+    padding: 10px 30px;
+    border-radius: 10px;
 }
 .header-img-div{
 
@@ -129,6 +142,7 @@ body{
 }
 .header-img-items:hover{
     transform: scale(1.1);
+    box-shadow: 0px 0px 30px #be3144;
     
 }
 .header-img-items img{
@@ -138,10 +152,43 @@ body{
 /* shop now button section */
 
 .shop-now-btn-section{
-    margin-top: 2%;
+    margin: 20px auto 50px;
     display: flex;
     justify-content: center;
 }
+
+/* footer */
+footer{
+    background-color: #be3144;
+    padding: 50px 0px 100px;
+    
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+}
+.footer-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-links{
+    text-decoration: none;
+    color: #3a4750;
+}
+.footer-links:hover{
+    color: #303841;
+}
+.github-logo{
+    margin-right: 5px;
+}
+
 
 @media (max-width: 600px){
     /* navbar */
@@ -160,6 +207,9 @@ body{
     }
 
     /* header */
+    .header{
+        padding: 10px 0px;
+    }
     .header-container{
         gap: 15px;
     }
@@ -186,5 +236,14 @@ body{
     .header-img-items{
         width: 20vh;
         height: 20vh;
+    }
+    .category-text{
+        font-size: 1rem;
+        padding: 10px 30px;
+    }
+
+    /* footer */
+    .footer-list{
+        flex-direction: column;
     }
 }
